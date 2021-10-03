@@ -1,0 +1,11 @@
+alias als="vi ~/.aliases && source ~/.aliases"
+alias zrc="vi ~/.zshrc && zplug install"
+
+alias cl=clear
+alias ls="ls --color -al"
+alias q=exit
+
+alias ~="cd ~"
+alias ..='cd ..'
+alias ...='cd ../..'
+alias prj='cd ~/projects'

@@ -5,6 +5,9 @@
 - clean: ['~']
 
 - link:
+    ~/.aliases: shell/.aliases
+    ~/.zshrc: shell/.zshrc
+    ~/.p10k.zsh: shell/.p10k.zsh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
